@@ -1,0 +1,544 @@
+@media only screen and (max-width:1200px){
+    #menu i {
+        display: block;
+        position: absolute;
+        top: 38%;
+        right: 12%;
+        z-index: 10;
+    }
+    #menu #sideNav{
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        padding: 0 20px;
+        transition: 0.5s;
+        box-shadow: 15px 23px 20px 10px #ccc;
+    }
+    #menu ul li{
+        display: block;
+        margin-left: 40px;
+        line-height: 40px;
+    }
+    #menu ul li a:hover:before{
+        width: 40%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 800px;
+        padding: 35px 0;
+        margin: 0 auto;
+    }
+    .common-btn{
+        font-size: 16px;
+        
+    }
+     #header{
+        height: 500px;
+        margin-top: 80px;
+    }
+    .header-text{
+        margin-top: 100px;
+        max-width: 400px;
+    }
+    
+    .heading{
+        padding: 18px;
+    }
+    .logo{
+        margin-left: -48px;
+    }
+    
+    .header-text h2{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .header-text p{
+        font-size: 16px;
+    }
+    .header-img{
+        width: 400px;
+    }
+    .header-img img{
+        transform: none;
+    }
+    .about-text{
+        max-width: 300px;
+    }
+    .about-text h2{
+        font-size: 25px;
+    }
+    .about-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-img{
+        width: 300px;
+    }
+    .about-text button{
+        margin-top: 30px;
+        margin-right: 0;
+    }
+    #offer h2{
+        margin-bottom: 20px;
+    }
+    .offer-row{
+        margin-top: 50px;
+    }
+    .of{
+        max-width: 200px;
+    }
+    .of i{
+        font-size: 40px;
+    }
+    .of h3{
+        font-size: 16px;
+    }
+    .of p{
+        line-height: 25px;
+    }
+    .of button{
+        margin: 24px 0;
+    }
+    .q-text{
+        max-width: 400px;
+    }
+    .q-left table th{
+        font-size: 18px;
+    }
+    .q-left table td{
+        font-size: 16px;
+    }
+    .skill-left,
+    .skill-right{
+        flex-basis: 50%;
+    }
+    .skill-left img{
+        margin-top: 40px;
+    }
+    .s-box{
+        height: 25px;
+
+    }
+    .s-box .skills{
+        height: 20px;
+        top: 2px;
+        padding-top: 0;
+        font-size: 14px;
+    }
+    .test-section h2{
+        left: 41%;
+    }
+    .testmonials{
+        flex-basis: 32%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .testmonials img {
+        width: 60px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 29%;
+        transform: translate(40%,-56%);
+        border: 1px solid #ddd;
+    }
+    .testmonials p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .testmonials h3{
+        margin-top: 16px;
+    }
+    #team{
+        margin-top: 80px;
+    }
+    .team-section{
+        margin-top: 0;
+    }
+    .team-left{
+        flex-basis: 60%;
+    }
+    .team-left img{
+        margin-top: 40px;
+    }
+    .team-right{
+        flex-basis: 40%;
+        
+    }
+    .team-right p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .contact-left{
+        flex-basis: 40%;
+    }
+    .contact-right{
+        flex-basis: 60%;
+    }
+    .contact-right img{
+        margin-top: 60px;
+    }
+    .footer-left .footer-menu{
+        margin: 8px 10px;
+    }
+    .footer-right{
+        margin-top: 8px;
+    }
+    .footer-right h3{
+        font-size: 30px;
+    }
+    .footer-right p{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .container{
+        width: 600px;
+    }
+    #header{
+        height: 400px;
+
+    }
+    .header-text{
+        max-width: 350px;
+    }
+    .header-text h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .header-img{
+        width: 250px;
+    }
+    .header-img img{
+        margin-top: 100px;
+    }
+    .heading{
+        z-index: 10;
+        padding: 20px 98px;
+    }
+    .about-right{
+        flex-basis: 100%;
+        
+    }
+    .about-text{
+        max-width: 500px;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+    .about-img{
+        width: 300px;
+    }
+    #offer{
+        margin-top: 180px;
+    }
+    .offer-row{
+        margin-top: 30px;
+        display: block;
+        
+    }
+    .of{
+        max-width: 500px;
+        margin: 0 auto;
+
+    }
+    .of i{
+        font-size: 50px;
+    }
+    .of h3{
+        font-size: 20px;
+    }
+    .of p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .skill-section{
+        padding-bottom: 40px;
+    }
+    .skill-left,
+    .skill-right{
+        flex-basis: 50%;
+    }
+    .skill-left img{
+        margin-top: 100px;
+    }
+    .s-box {
+        height: 20px;
+        padding: 1px;
+    }
+    .s-box .skills{
+        height: 16px;
+        font-size: 14px;
+        top: 1px;
+        padding-top: 0;
+    }
+    .contact-left{
+        flex-basis: 40%;
+    }
+    .contact-right{
+        flex-basis: 60%;
+    }
+    .contact-right img {
+        
+        margin-top: 100px;
+    }
+    .test-section h2{
+        left: 41%;
+    }
+    .testmonials{
+        flex-basis: 80%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .testmonials img {
+        width: 80px;
+        left: 36%;
+    }
+    .testmonials p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .testmonials h3{
+        margin-top: 16px;
+    }
+    #team{
+        margin-top: 80px;
+    }
+    .team-section{
+        margin-top: 0;
+    }
+    .team-left{
+        flex-basis: 60%;
+    }
+    .team-left img{
+        margin-top: 40px;
+    }
+    .team-right{
+        flex-basis: 40%;
+        
+    }
+    .team-right p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-left .footer-menu{
+        margin: 8px 4px;
+    }
+    .footer-right{
+        margin-top: 8px;
+    }
+    .footer-right h3{
+        font-size: 30px;
+    }
+    .footer-right p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px){
+    .container{
+        width: 300px;
+    }
+    .common-btn{
+        font-size: 14px;
+    }
+    #header{
+        height: 400px;
+        margin-top: 50px;
+    }
+    .heading {
+        padding: 16px 30px;
+        
+    }
+    .header-text{
+        margin-top: 60px;
+        max-width: 290px;
+    }
+    .header-text h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .header-img{
+        display: none;
+    }
+    .about-section{
+        padding: 30px 20px;
+    }
+    .about-left,
+    .about-right{
+        flex-basis: 100%;
+    }
+    .about-text{
+        max-width: 290px;
+        text-align: left;
+    }
+    .about-text h2{
+        font-size: 25px;
+    }
+    .about-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-img{
+        width: 200px;
+        margin: 0 auto;
+    }
+    #offer{
+        margin-top: 60px;
+    }
+    .offer-row{
+        margin-top: 30px;
+        display: block;
+        
+    }
+    .of{
+        max-width: 500px;
+        margin: 0 auto;
+
+    }
+    .of i{
+        font-size: 50px;
+    }
+    .of h3{
+        font-size: 20px;
+    }
+    .of p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .q-section{
+        display: block;
+        text-align: center;
+    }
+    .q-text{
+        max-width: 290px;
+        margin: 0 auto;
+    }
+    .q-left table h2{
+        font-size: 20px;
+    }
+    .q-left table{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .q-left table th{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .q-left table td{
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+    
+    .skill-section{
+        padding-bottom: 40px;
+        margin-top: 0;
+    }
+    .skill-left,
+    .skill-right{
+        flex-basis: 100%;
+    }
+    .skill-left img{
+        display: none;
+    }
+    .s-box {
+        height: 20px;
+        padding: 1px;
+    }
+    .s-box .skills{
+        height: 16px;
+        font-size: 14px;
+        top: 1px;
+        padding-top: 0;
+    }
+    .contact-area{
+        display: block;
+        margin-top: 0;
+    }
+    .contact-left form{
+        width: 100%;
+    }
+    .contact-right img {
+        margin-top: 40px;
+    }
+    .test-section h2 {
+        left: 29%;
+    }
+    .testmonials{
+        flex-basis: 80%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .testmonials img {
+        width: 68px;
+        left: 25%;
+    }
+    .testmonials p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .testmonials h3{
+        margin-top: 16px;
+    }
+    #team{
+        margin-top: 40px;
+    }
+    .team-section{
+        margin-top: 0;
+        display: block;
+    }
+    .team-right p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer{
+        display: block;
+    }
+    .footer-left{
+        display: block;
+    }
+    .first-menu,
+    .second-menu{
+        display: flex;
+    }
+
+    .footer-left .footer-menu{
+        margin: 10px 40px;
+    }
+    .second-menu .footer-menu:nth-child(2){
+        margin-left: 0;
+    }
+    .footer-menu ul{
+        width: 140%;
+    }
+    .footer-right{
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20px;
+        width: 70%;
+    }
+    .footer-right h3{
+        font-size: 24px;
+        margin-top: 340px;
+        margin-bottom: 10px;
+    }
+    .footer-right p{
+        font-size: 14px;
+    }
+    .footer-menu{
+        width: 50%;
+    }
+
+}

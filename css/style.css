@@ -1,0 +1,563 @@
+/* ========== Reset Code ========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.common-btn{
+    color: #fff;
+    background-color: #6C63FF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    outline: none;
+    transition: 0.3s;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.common-btn:hover{
+    border: 1px solid #fff;
+    background-color: #3F3D56;
+}
+table caption{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* ========= Header CSS ========= */
+#header{
+    height: 100vh;
+    
+
+}
+.heading {
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 6;
+	top: 0;
+	right: 0;
+	padding: 20px 154px;
+	box-shadow: 0px 0px 17px -10px black;
+}
+.logo{
+    float: left;
+    margin-right: 20px;
+}
+.logo h2{
+    margin-top: 9px;
+}
+.logo h2 a{
+    font-size: 34px;
+    font-weight: 700;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3F3D56;
+    font-style: italic;
+}
+#menu{}
+#menu i{
+    display: none;
+    font-size: 25px;
+    color: #6C63FF;
+}
+#menu ul{
+    display: flex;
+    margin-left: 30px;
+    float: right;
+  
+}
+#menu ul li {
+    margin-right: 20px;
+    font-size: 16px;
+    padding: 8px;
+  
+}
+
+
+#menu ul li a{
+    color: #333;
+    font-weight: 550;
+    display: block;
+    border-bottom: 4px solid transparent;
+    transition: 0.3s;
+    position: relative;
+}
+#menu ul li a::before{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #6C63FF ;
+    position: absolute;
+    bottom: -4px;
+    transition: 0.3s;
+    
+    
+}
+#menu ul li a:hover:before{
+    width: 100%;
+}
+.header-text {
+    max-width: 501px;
+    float: left;
+    margin-top: 184px;
+}
+.header-text h2 {
+    font-size: 52px;
+    line-height: 60px;
+    color: #6C63FF;
+}
+.header-text p{
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+#header .buttons{
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.header-img {
+    width: 619px;
+    float: right;
+    margin-top: 45px;
+}
+.header-img img{
+    width: 100%;
+    transform: translateX(10%);
+}
+
+/* ========= About Section CSS ========== */
+#about{
+    width: 100%;
+    margin: 40px 0;
+}
+.about-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px#b2bec3;
+    padding: 30px 80px;
+    border-radius: 8px;
+    margin-top: 100px;
+  
+}
+.about-left,
+.about-right{
+    flex-basis: 50%;
+}
+.about-text{
+    max-width: 500px;
+    float: right;
+    text-align: right;
+}
+.about-text h2{
+    font-size: 30px;
+    color: #6C63FF;
+    margin: 20px 0;
+}
+.about-text p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.about-text button{
+    margin-top: 40px;
+}
+.about-img{
+    width: 480px;
+    border: 1px solid #ddd;
+    
+}
+.about-img img{
+    width: 100%;
+}
+
+/* =========== Offer Section CSS ============*/
+#offer{}
+#offer h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+.offer-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.of{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 20px;
+}
+.of i {
+    font-size: 50px;
+    color: #6C63FF;
+    margin: 20px 0;
+}
+.of h3{
+    font-size: 20px;
+    color: #3F3D56;
+    margin: 10px 0;
+}
+.of p{
+    font-size: 14px;
+    color: #333;
+    line-height: 30px;
+}
+.of button{
+    margin: 40px 0;
+}
+
+/* ============ Qualification Section CSS ============= */
+#qualification{
+    width: 100%;
+    margin: 40px 0;
+}
+.q-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.q-left,
+.q-right{
+    flex-basis: 50%;
+}
+.q-text{
+    max-width: 600px;
+}
+.q-left h2{
+    font-size: 30px;
+    color: #6C63FF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+.q-left table{
+    border: 2px solid #333;
+    border-collapse: collapse;
+    line-height: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.q-left table th{
+    background: #3F3D56;
+    color: #fff;
+    font-size: 21px;
+    padding: 10px;
+}
+.q-left table td{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.q-right{
+}
+.q-right img{
+    width: 100%;
+}
+
+/* ============ Skill CSS ============= */
+#skill{}
+.skill-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px#b2bec3;
+    margin-top: 100px;
+}
+.skill-left{
+    flex-basis: 60%;
+}
+.skill-right{
+    flex-basis: 40%;
+}
+.skill-left img{
+    width: 100%;
+}
+.skill-right .skill-text{}
+.skill-text h2{
+    font-size: 30px;
+    color: #6C63FF;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.skill-text .skill-box{}
+.skill-box .skill-c{}
+.skill-c p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 16px;
+}
+.s-box {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid #3F3D56;
+    padding: 2px;
+}
+.s-box .skills{
+    width: 80%;
+    height: 25px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #6C63FF;
+    border-radius: 20px;
+    padding-top: 4px;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* html  */
+.skill-box:nth-child(2) .skills{
+    width: 90%;
+}
+/* css */
+.skill-box:nth-child(3) .skills{
+    width: 85%;
+}
+/* javascript */
+.skill-box:nth-child(4) .skills{
+    width: 80%;
+}
+/* bootstrap */
+.skill-box:nth-child(5) .skills{
+    width: 94%;
+}
+/* php */
+.skill-box:nth-child(6) .skills{
+    width: 70%;
+}
+/* mysql */
+.skill-box:nth-child(7) .skills{
+    width: 80%;
+}
+
+
+
+/* ========== Contact CSS =========== */
+#contact{}
+.contact-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.contact-left{
+    flex-basis: 50%;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.contact-left h2{
+    font-size: 30px;
+    color: #6C63FF;
+    margin: 40px 0;
+}
+.contact-left form{
+    width: 100%;
+    font-size: 16px;
+}
+.contact-left form input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #3F3D56;
+    outline: none;
+}
+.contact-left form textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid #3F3D56;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.contact-left form input[type="submit"]{}
+.contact-right img{
+    width: 100%;
+}
+
+/* ========== Team CSS ========== */
+#team{}
+.team-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.team-left{
+    flex-basis: 50%;
+}
+.team-right{
+    flex-basis: 50%;
+    text-align: right;
+}
+.team-left img{
+    width: 100%;
+}
+.team-right h2{
+    font-size: 30px;
+    color: #6C63FF;
+    margin: 40px 0;
+}
+.team-right p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+.team-right button{
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+/* ========== Testimonials CSS =========== */
+#test{
+    background: url(../images/london.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#test::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    
+    height: 100%;
+    opacity: 0.8;
+}
+.test-section{
+    z-index: 2;
+    margin-top: 100px;
+}
+.test-section h2{
+    text-align: center;
+    font-size: 30px;
+    color: #6C63FF;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 44%;
+
+}
+.test-section .test-row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 60px;    
+}
+.testmonials{
+    flex-basis: 30%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 15px black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+ 
+
+}
+.testmonials img{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    transform: translate(40%,-56%);
+    border: 1px solid #ddd;
+}
+.testmonials p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.testmonials hr{
+    color: #ccc;
+}
+.testmonials h3{
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* =========== Footer CSS ========== */
+#footer{}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-left{
+    width: 60%;
+    float: left;
+    display: flex;
+    
+}
+.footer-left .first-menu,
+.footer-left .second-menu{
+    display: flex;
+}
+.footer-left .footer-menu{
+    margin: 10px 40px;
+}
+.footer-menu h4{
+    font-size: 16px;
+    color: #6C63FF;
+}
+.footer-menu ul{
+    margin-top: 10px;
+}
+.footer-menu ul li{
+    font-size: 13px;
+    color: #333;
+}
+.footer-menu ul li a{}
+.footer-right{
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-top: 100px;
+}
+.footer-right h3{
+    font-size: 40px;
+    color: #3F3D56;
+    margin: 20px 0;
+
+}
+.footer-right p{
+    color: #333;
+    font-size: 16px;
+}
